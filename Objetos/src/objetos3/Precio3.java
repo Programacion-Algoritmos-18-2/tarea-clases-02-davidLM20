@@ -3,29 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package objetos;
-
-import java.util.Scanner;
+package objetos3;
 
 /**
  *
  * @author David Lopez
  */
-public class Precio {
+public class Precio3 {
 
-    /**
-     * @param args the command line arguments
-     */
-    double euros;
+    private double euros;
 
     public double obtener() {
         return euros;
     }
-    Scanner entrada = new Scanner(System.in);
 
     public void agregar(double x) {
-        System.out.println("Ingrese el valor de euros:");
-        euros = entrada.nextDouble();
+        euros = x;
+
+    }
+
+    public Precio3() {
+        agregar(30.2);
 
     }
 }

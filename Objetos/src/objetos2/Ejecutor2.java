@@ -3,24 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package objetos;
+package objetos2;
 
 /**
  *
  * @author David Lopez
  */
-public class Ejecutor {
+public class Ejecutor2 {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        Precio p;
-        p = new Precio();
-        double x = 0;
-        p.agregar(x);
+        Precio2 p;
+        p = new Precio2();
+        p.agregar(20.2);
         System.out.println(p.obtener());
-        p.euros = 10.1;
-        System.out.println(p.euros);
-        
     }
-    
+
 }

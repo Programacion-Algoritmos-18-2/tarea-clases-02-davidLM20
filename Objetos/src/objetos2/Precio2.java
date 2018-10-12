@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package objetos;
+package objetos2;
 
 import java.util.Scanner;
 
@@ -11,21 +11,18 @@ import java.util.Scanner;
  *
  * @author David Lopez
  */
-public class Precio {
+public class Precio2 {
 
-    /**
-     * @param args the command line arguments
-     */
-    double euros;
+    private double euros;
 
     public double obtener() {
         return euros;
     }
-    Scanner entrada = new Scanner(System.in);
+    
 
     public void agregar(double x) {
-        System.out.println("Ingrese el valor de euros:");
-        euros = entrada.nextDouble();
+        euros =x;
+        
 
     }
 }
