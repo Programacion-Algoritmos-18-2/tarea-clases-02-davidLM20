@@ -22,7 +22,7 @@ public class Ejecutor {
         e2.agregar_num_jugadores("20");
         e2.agregar_ciudad("Loja");
         //se presenta valores
-        System.out.printf("Nombre %s - Jugadores %s - Ciudad %s\n", e2.obtener_nombre(), e2.obtener_num_jugadores(), e2.obtener_ciudad());
+        System.out.printf("Nombre: %s - Jugadores: %s - Ciudad: %s\n", e2.obtener_nombre(), e2.obtener_num_jugadores(), e2.obtener_ciudad());
         //se estancia el tercer objeteo
         Equipo e3 = new Equipo("Ballenita", "23");
         // el llamado del metodo agregar
