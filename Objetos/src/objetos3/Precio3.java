@@ -10,6 +10,7 @@ package objetos3;
  * @author David Lopez
  */
 public class Precio3 {
+    //Metodos
 
     private double euros;
 
