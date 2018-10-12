@@ -15,8 +15,11 @@ public class Ejecutor3 {
         // TODO code application logic here
         Precio3 p;
         p = new Precio3();
-        
+        Precio3 m =new Precio3(2);
+        Precio3 n =new Precio3(255);
         System.out.println(p.obtener());
+        System.out.println(m.obtener());
+        System.out.println(n.obtener());
     }
 
 }

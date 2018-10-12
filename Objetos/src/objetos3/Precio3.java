@@ -26,4 +26,7 @@ public class Precio3 {
         agregar(30.2);
 
     }
+    public Precio3(double y){
+        agregar(y);
+    }
 }
